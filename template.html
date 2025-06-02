@@ -33,6 +33,19 @@
         gtag('config', 'G-XXXXXXXXXX');
     </script>
 
+    <!-- Chargement Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Fallback pour Font Awesome en cas d'échec du CDN -->
+    <script>
+        if(typeof FontAwesome === 'undefined') {
+            var css = document.createElement('link');
+            css.rel = 'stylesheet';
+            css.href = 'https://use.fontawesome.com/releases/v6.4.0/css/all.css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        }
+    </script>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Données structurées pour le SEO -->
