@@ -1,6 +1,16 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /private/
+Allow: /guides
+Allow: /comparatif
+Allow: /contact
 
+# Optimizing crawl budget
+Disallow: /api/
+Disallow: /admin/
+Disallow: /cdn-cgi/
+
+# Sitemap location
 Sitemap: https://vpn-comparateur.vercel.app/sitemap.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 10

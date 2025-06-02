@@ -1,36 +1,70 @@
 {
-  "name": "Comparateur de VPN",
-  "short_name": "VPN Compare",
-  "description": "Comparateur de services VPN pour trouver le meilleur VPN adapté à vos besoins",
+  "name": "VPN Comparateur - Guide des Meilleurs VPN",
+  "short_name": "VPN Comparateur",
+  "description": "Comparateur des meilleurs VPN avec tests, avis et prix. Guide complet pour choisir un VPN fiable.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3B82F6",
   "icons": [
     {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
       "src": "/favicon-48x48.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/favicon-72x72.png",
-      "sizes": "72x72",
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/favicon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "/favicon-192x192.png",
+      "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/favicon-512x512.png",
+      "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "categories": ["utilities", "security", "privacy"],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Accueil VPN Comparateur"
+    },
+    {
+      "src": "/screenshots/comparison.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Tableau comparatif des VPN"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Comparatif VPN",
+      "url": "/comparatif",
+      "description": "Voir le comparatif détaillé des VPN"
+    },
+    {
+      "name": "Guides VPN",
+      "url": "/guides",
+      "description": "Consulter nos guides d'utilisation VPN"
     }
   ]
 }
